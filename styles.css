@@ -32,7 +32,7 @@ main{
 
 
 .perfume-img{
-    background: url('./images/image-product-mobile.jpg');
+    background: url('/images/image-product-mobile.jpg');
     background-size: cover;
     
     border-radius: 10px 10px 0 0;
@@ -163,7 +163,7 @@ button:hover{
     
     .perfume-img{
      
-        background: url('./images/image-product-desktop.jpg');
+        background: url('/images/image-product-desktop.jpg');
         background-size: cover;
         
         border-radius: 10px 0px 0 10px;
@@ -189,6 +189,10 @@ button:hover{
     
     }
 
+    .prices{
+        margin: 10px 0;
+    }
+
 
     .new-price{
         margin:0;
@@ -196,5 +200,10 @@ button:hover{
 
     .button{
         margin: 0px;
+    }
+
+
+    .category{
+        padding: 25px 0px;
     }
 }
